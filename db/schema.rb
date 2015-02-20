@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 20150219221734) do
 
   create_table "reviews", force: true do |t|
     t.string   "userName"
-    t.string   "text"
+    t.text     "text"
     t.integer  "rating"
     t.integer  "book"
     t.datetime "created_at"

@@ -2,7 +2,7 @@ class CreateReviews < ActiveRecord::Migration
   def change
     create_table :reviews do |t|
       t.string :userName
-      t.string :text
+      t.text :text
       t.integer :rating
       t.integer :book
 

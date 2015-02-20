@@ -6,7 +6,7 @@ class CreateBooks < ActiveRecord::Migration
       t.string :amazonLink
       t.string :genre
       t.string :year
-      t.integer :author
+      t.integer :author_id
 
       t.timestamps
     end

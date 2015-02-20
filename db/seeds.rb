@@ -12,7 +12,7 @@ books = [
     amazonLink: "http://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X/ref=asap_bc?ie=UTF8",
     genre: "Fantasy",
     year: "1999",
-    author: 1,
+    author_id: 1,
   },
   {
     title: "Harry Potter and the Chamber of Secrets",
@@ -20,7 +20,7 @@ books = [
     amazonLink: "http://www.amazon.com/Harry-Potter-Chamber-Secrets-Rowling/dp/0439064872/ref=asap_bc?ie=UTF8",
     genre: "Fantasy",
     year: "2000",
-    author: 1,
+    author_id: 1,
   },
   {
     title: "The Sirens of Titan",
@@ -28,7 +28,7 @@ books = [
     amazonLink: "http://www.amazon.com/Sirens-Titan-Kurt-Vonnegut-ebook/dp/B003XREM5G/ref=asap_bc?ie=UTF8",
     genre: "Satire",
     year: "1959",
-    author: 2,
+    author_id: 2,
   },
   {
     title: "Breakfast of Champions",
@@ -36,7 +36,7 @@ books = [
     amazonLink: "http://www.amazon.com/Breakfast-Champions-Novel-Kurt-Vonnegut/dp/0385334206/ref=asap_bc?ie=UTF8",
     genre: "Satire",
     year: "1973",
-    author: 2,
+    author_id: 2,
   },
   {
     title: "Werewolves in Their Youth: Stories",
@@ -44,7 +44,7 @@ books = [
     amazonLink: "http://www.amazon.com/Werewolves-Their-Youth-Michael-Chabon/dp/0312254385/ref=la_B00456TWZY_1_11?s=books&ie=UTF8&qid=1423726877&sr=1-11",
     genre: "Short Stories",
     year: "2000",
-    author: 3,
+    author_id: 3,
   },
   {
     title: "Consider the Lobster and Other Essays",
@@ -52,7 +52,7 @@ books = [
     amazonLink: "http://www.amazon.com/Consider-Lobster-Essays-Foster-Wallace/dp/0316013323/ref=asap_bc?ie=UTF8",
     genre: "Essays",
     year: "2000",
-    author: 4,
+    author_id: 4,
   },
   {
     title: "Infinite Jest",
@@ -60,7 +60,7 @@ books = [
     amazonLink: "http://www.amazon.com/Infinite-Jest-David-Foster-Wallace/dp/0316066524/ref=asap_bc?ie=UTF8",
     genre: "Satire",
     year: "1996",
-    author: 4,
+    author_id: 4,
   },
   {
     title: "The Adventures of Tom Sawyer",
@@ -68,7 +68,7 @@ books = [
     amazonLink: "http://www.amazon.com/Adventures-Sawyer-Dover-Thrift-Editions/dp/0486400778/ref=asap_bc?ie=UTF8",
     genre: "Fiction",
     year: "1876",
-    author: 5,
+    author_id: 5,
   },
   {
     title: "The Adventures of Huckleberry Finn",
@@ -76,7 +76,7 @@ books = [
     amazonLink: "http://www.amazon.com/Adventures-Huckleberry-Finn-Mark-Twain/dp/0486280616/ref=asap_bc?ie=UTF8",
     genre: "Fiction",
     year: "1884",
-    author: 5,
+    author_id: 5,
   }
 ]
 
@@ -85,55 +85,55 @@ reviews = [
     userName: "John",
     text: "This is the worst book I've ever read.  I prefer ping pong...",
     rating: 1,
-    book: 1
+    book_id: 1
   },
   {
     userName: "Martha",
     text: "Shame on you, John. This book is great! I hope you die.",
     rating: 5,
-    book: 1
+    book_id: 1
   },
   {
     userName: "Momo",
     text: "Woof Woof Woof Woof I love this book.  Also I'm a dog k bye",
     rating: 4,
-    book: 2
+    book_id: 2
   },
   {
     userName: "HotDog123",
     text: "Great stuff!  I'm a hot dog!  It's so hard to type these reviews without hands. This took me 3 years to type.",
     rating: 4,
-    book: 3
+    book_id: 3
   },
   {
     userName: "CrazyDrummer99",
     text: "Good book, but I wish it talked more about drumming.  I love playing drums",
     rating: 3,
-    book: 4
+    book_id: 4
   },
   {
     userName: "CrazyPianoGirl44",
     text: "Good book, but I wish it talked more about piano.  I love the piano",
     rating: 2,
-    book: 4
+    book_id: 4
   },
   {
     userName: "50ShadesOfHEYYYY",
     text: "Expected a werewolf book, but got a depressing collection of stories about a bunch of cynical losers",
     rating: 2,
-    book: 5
+    book_id: 5
   },
   {
     userName: "Colt",
     text: "A scathing takedown of the mindless materialism and overmedicated emptiness that has come to define the lives of far too many Americans. It's an all out assault on the veneer many people(myself included) hide behind as they run out the clock on their otherwise meaningless lives.",
     rating: 3,
-    book: 7
+    book_id: 7
   },
   {
     userName: "somePerson123",
     text: "Oh to be a kid again...What a great read.",
     rating: 4,
-    book: 8
+    book_id: 8
   }
 ]
 

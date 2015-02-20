@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20150219221734) do
     t.string   "amazonLink"
     t.string   "genre"
     t.string   "year"
-    t.integer  "author"
+    t.integer  "author_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 20150219221734) do
     t.string   "userName"
     t.text     "text"
     t.integer  "rating"
-    t.integer  "book"
+    t.integer  "book_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
